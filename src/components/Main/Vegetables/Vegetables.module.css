@@ -1,0 +1,32 @@
+.vegetableContainer {
+  font-family: "Poppins", Helvetica, sans-serif;
+  height: 256px;
+  display: flex;
+  gap: 32px;
+}
+.priceContainer {
+  background-color: #f3806017;
+  padding: 17px 24px 79px;
+  border: 1px solid;
+  border-radius: 32px;
+}
+.imgs {
+  width: 160px;
+  height: 160px;
+  border: none;
+  border-radius: 32px;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.prices {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../../../assets/Poppins-Regular.ttf);
+}

@@ -1,10 +1,35 @@
 .inputContainer {
+  display: flex;
   width: 512px;
+  max-height: 60px;
+  margin-top: 48px;
+  margin-bottom: 40px;
+  font-family: "Poppins", Helvetica, sans-serif;
 }
 input {
-  width: 512px;
+  width: 450px;
+  height: 60px;
   padding: 16px 0 16px 32px;
   background-color: #d0d0d240;
   border: none;
-  border-radius: 8px;
+  border-radius: 8px 0 0 8px;
+}
+.searchContainer {
+  width: 60px;
+  max-height: 60px;
+  background-color: #f38160;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  position: relative;
+}
+.searchContainer .icon {
+  display: flex;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  height: 24px;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../../../assets/Poppins-Regular.ttf);
 }

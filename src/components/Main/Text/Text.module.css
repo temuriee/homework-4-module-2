@@ -2,9 +2,12 @@
   max-width: 762px;
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  font-family: "Poppins", Helvetica, sans-serif;
 }
 
 .mainText {
+  width: 710px;
   font-size: 80px;
   color: rgba(0, 0, 0, 0.801);
 }
@@ -14,4 +17,8 @@ span {
 .secondText {
   font-size: 24px;
   color: #949494;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../../../assets/Poppins-Regular.ttf);
 }

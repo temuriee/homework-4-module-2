@@ -1,0 +1,17 @@
+.manLogo {
+  width: 553px;
+  height: 614px;
+}
+.manContainer {
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+.vegetablesContainer {
+  margin-top: 80px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../../../assets/Poppins-Regular.ttf);
+}

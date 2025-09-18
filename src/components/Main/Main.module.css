@@ -1,0 +1,13 @@
+.mainContainer {
+  max-width: 1530px;
+  display: flex;
+  margin: 0 auto;
+}
+.divContainer {
+  margin-top: 80px;
+  max-height: 520px;
+}
+.manLogoContainer {
+  display: flex;
+  gap: 64px;
+}
