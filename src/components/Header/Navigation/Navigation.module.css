@@ -1,0 +1,22 @@
+.navContainer {
+  display: flex;
+  gap: 56px;
+  list-style: none;
+  margin-top: 46px;
+}
+
+.infoContainer {
+  color: #403c39c4;
+  text-decoration: none;
+  /* text-underline-offset underline თექსთს აშორებს underline-ს ეს ინტერნეტში მოვიძიე */
+  text-underline-offset: 8px;
+  transition: ease-in-out 0.3s;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.navList:hover .infoContainer {
+  color: #f38160;
+  text-decoration: underline;
+  font-size: 20px;
+}

@@ -1,0 +1,51 @@
+.headerContainer {
+  display: flex;
+
+  justify-content: space-around;
+}
+.Logo {
+  margin-top: 25px;
+}
+.mainLogo {
+  max-width: 194px;
+  height: 54px;
+  object-fit: contain;
+}
+
+/* right side */
+
+.registerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.marketContainer {
+  position: absolute;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.dotImg {
+  position: absolute;
+  left: 27px;
+  bottom: 27px;
+}
+
+/* right side 2 */
+
+.signIn {
+  color: #f38160;
+}
+.signUp {
+  padding: 16px 40px;
+  border-radius: 16px;
+  color: #fafafa;
+  background-color: #f38160;
+  text-decoration: none;
+  font-size: 18px;
+}
+.logInContainer {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-left: 80px;
+}

@@ -1,0 +1,17 @@
+.textContainer {
+  max-width: 762px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainText {
+  font-size: 80px;
+  color: rgba(0, 0, 0, 0.801);
+}
+span {
+  color: #f38160;
+}
+.secondText {
+  font-size: 24px;
+  color: #949494;
+}
