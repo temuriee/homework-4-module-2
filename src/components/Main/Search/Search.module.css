@@ -21,6 +21,7 @@ input {
   border: none;
   border-radius: 0 8px 8px 0;
   position: relative;
+  cursor: pointer;
 }
 .searchContainer .icon {
   display: flex;

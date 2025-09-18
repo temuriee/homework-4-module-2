@@ -35,7 +35,7 @@ function Bottom() {
   ];
 
   return cards.map((eachElement) => (
-    <div>
+    <div className={bottomStyles.cardContainer}>
       <img src={eachElement.img} alt="" />
       <h2>{eachElement.title}</h2>
       <p>{eachElement.description}</p>

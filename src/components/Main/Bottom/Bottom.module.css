@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../../../assets/Poppins-Regular.ttf);
+}
+
+.cardContainer {
+  width: 300px;
+  margin-top: 66px;
+  margin-bottom: 100px;
+  font-family: "Poppins", Helvetica, sans-serif;
+  border: solid 1px;
+  border-radius: 32px;
+  padding: 15px;
+  background-color: #f3806017;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+}
+.cardContainer:hover {
+  transform: scale(1.1);
+  background-color: gray;
+}

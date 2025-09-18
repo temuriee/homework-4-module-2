@@ -14,5 +14,6 @@
 }
 .bottomContainer {
   display: flex;
+  gap: 20px;
   width: 1600px;
 }

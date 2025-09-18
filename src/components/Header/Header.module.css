@@ -1,7 +1,8 @@
 .headerContainer {
   display: flex;
-
-  justify-content: space-around;
+  max-width: 1600px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .Logo {
   margin-top: 25px;
@@ -27,7 +28,7 @@
 .dotImg {
   position: absolute;
   left: 27px;
-  bottom: 27px;
+  bottom: 33px;
 }
 
 /* right side 2 */
