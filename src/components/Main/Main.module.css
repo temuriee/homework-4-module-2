@@ -1,7 +1,8 @@
 .mainContainer {
-  max-width: 1530px;
+  max-width: 1590px;
   display: flex;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 .divContainer {
   margin-top: 80px;
@@ -10,4 +11,8 @@
 .manLogoContainer {
   display: flex;
   gap: 64px;
+}
+.bottomContainer {
+  display: flex;
+  width: 1600px;
 }

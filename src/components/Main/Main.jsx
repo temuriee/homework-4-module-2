@@ -1,3 +1,4 @@
+import Bottom from "./Bottom/Bottom";
 import mainStyles from "./Main.module.css";
 import ManLogo from "./ManLogo/ManLogo";
 import Search from "./Search/Search";
@@ -14,6 +15,9 @@ function Main() {
       </div>
       <div className={mainStyles.manLogoContainer}>
         <ManLogo />
+      </div>
+      <div className={mainStyles.bottomContainer}>
+        <Bottom />
       </div>
     </div>
   );
